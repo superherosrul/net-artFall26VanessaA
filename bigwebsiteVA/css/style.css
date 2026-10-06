@@ -1,0 +1,53 @@
+body {
+    height: 2500px;
+    width: 2500px;
+    overflow: auto;
+    background-color: black;
+}
+
+p{
+    color: violet;
+    font-style: oblique;
+    font-size: 350px;
+}
+
+div{
+    color: rgb(157, 0, 255);
+    font-size: 350px;
+    font-style: oblique;
+    border: 5px solid rgb(0, 255, 225);
+    background: black;
+    padding: 90px;
+    margin: 70px;
+}
+
+#HeaderID{
+    color: rgb(255, 0, 208);
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 100;
+    text-align: right;
+    padding: 90px;
+    font-family: 'Franklin Gothic Medium';
+    opacity: 0.8;
+}
+
+span{
+    color: white;
+    font-size: 250px;
+    font-style: italic;
+    font-weight: 50;
+    padding: 90px;
+    text-decoration-style: wavy;
+}
+.my_name {
+    display: fill;
+    gap: 700px;
+    justify-content: center;
+}
+
+.my_name img {
+    width: 1000px;
+    height: 1000px;
+    object-fit: contain;
+}
