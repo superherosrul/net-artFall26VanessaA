@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gradient-box {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #ff7e5f, #4000ff, #feb47b);
+}
+
+.gradient-box2 {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #4000ff, #ff7e5f, #feb47b);
+}
+
+.gradient-box3 {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #ff7e5f, #00ffe1, #feb47b, #feb47b);
+}
+
+.gradient-box4 {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #00ffe1, #feb47b);
+}
+
+.gradient-pattern {
+    /* 1. Dimensions */
+    width: 100%;
+    height: 50px;
+  
+    /* 2. The Layered Background */
+    background-image: 
+      linear-gradient(170deg, #00ffe1, #4000ff);     /* Bottom Layer: The Gradient */
+  
+    /* 3. Pattern Controls */
+    background-repeat: repeat;                       /* Tiles the pattern */
+    background-size: 150px 150px, auto;             /* Sizes the pattern, leaves gradient fluid */
+  }
+  
