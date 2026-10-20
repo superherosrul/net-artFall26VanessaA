@@ -1,0 +1,59 @@
+body {
+    overflow: auto;
+    background-color: blueviolet;
+    transition: background-color 0.5s ease;
+}
+p {
+    color: white;
+    font-size: 100px;
+    font-family: monospace;
+    text-align: center;
+}
+@keyframes move {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
+
+.star {
+    width: 100px;
+    height: 100px;
+    background-color: #ff00f7;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: move 2s infinite alternate;
+    transition: transform 1s ease-in-out, background-color 0.5s ease;
+    z-index: 1;
+}
+.star1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff00f7, #00ffff);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: move 2s infinite alternate;
+    z-index: -2;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 0;
+}
+
+.gradient-shape {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, #ff00f7, #00ffff);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.gradient-shape:hover {
+    background: linear-gradient(45deg, #00ffff, #ff00f7);
+    opacity: 0;
+}
