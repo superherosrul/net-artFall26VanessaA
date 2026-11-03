@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+}
+
+.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    display: block;
+    background-color: #6600ff;
+    overflow-y: auto;
+    float: left;
+    padding-left: 10px;
+
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    text-align: center;
+}
+
+.highlight-word {
+    transition: color 0.3s ease;
+    color: white;
+}
+.highlight-word:hover {
+    color: #ff9900;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+p1 {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    display: block;
+    background-color: linear-gradient(90deg, #6600ff, #b300ff);
+    overflow-y: auto;
+    float: right;
+}
