@@ -12,5 +12,5 @@ greeting("Net Art Class");
 
 function changeStyle() {
     let textElement = document.querySelector("#jsText");
-    textElement.style.cssText = "color: green; font-size:50px; font-style: oblique; fontWeight: bold; background-color: pink";
+    textElement.style.cssText = "color: green; font-size:50px; font-style: oblique; fontWeight: bold; background-color: pink;";
 }
