@@ -1,4 +1,4 @@
-const canvas = document.getElementById('confetti');
+const canvas = document.getElementById('Confetti');
 const contex = canvas.getContext('2d');
 const celebrate = document.getElementById('celebrate');
 
@@ -81,7 +81,7 @@ window.addEventListener('load', () => {
     setInterval(spawnBalloon, 900);
 });
 
-celebrateBtn.addEventListener('click', (e) => {
+celebrate.addEventListener('click', (e) => {
     e.stopPropagation();
     createBurst(window.innerWidth / 2, window.innerHeight / 2, 100);
 });
